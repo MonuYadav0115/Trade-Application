@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: '/api' })
+const API = axios.create({ baseURL: 'https://trade-application.onrender.com' })
 
 // Attach JWT to every request automatically
 
