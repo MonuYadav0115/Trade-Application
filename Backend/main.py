@@ -83,7 +83,7 @@ async def global_exception_handler(request: Request, exc: Exception):
 async def root():
     """Health check / welcome endpoint."""
     return {
-        "message": "Trade Opportunities API is running 🚀",
+        "message": "Trade Opportunities API is running ",
         "version": "1.0.0",
         "docs": "/docs",
         "endpoints": {
