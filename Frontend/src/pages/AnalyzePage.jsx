@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import { Search, Download, Clock, Database, Zap, ChevronDown, RefreshCw } from 'lucide-react'
 import toast from 'react-hot-toast'
 import { analyzeSector } from '../utils/api'
-import { SECTORS } from '../utils/constants'
+import { SECTORS } from '../utils/Constants'
 import { format } from 'date-fns'
 
 function SkeletonReport() {
