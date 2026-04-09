@@ -19,4 +19,4 @@ export const SECTORS = [
   { value: 'education',       label: 'Education',         icon: '📚' },
   { value: 'logistics',       label: 'Logistics',         icon: '🚚' },
   { value: 'it',              label: 'IT',                icon: '🖥️' },
-]
+]   
