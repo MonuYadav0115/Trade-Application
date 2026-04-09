@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { TrendingUp, Globe2, Zap, Shield, BarChart3, ArrowRight, Activity } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { getHealth } from '../utils/api'
-import { SECTORS } from '../utils/constants'
+import { SECTORS } from '../utils/Constants'
 
 export default function DashboardPage() {
   const { user }       = useAuth()
